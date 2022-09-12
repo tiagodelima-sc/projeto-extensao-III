@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/telaLogin.css" />
+    <title>Tela de Login - Rede de Solidariedade</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <!-- INICIO LOGIN -->
+          <form action="" class="sign-in-form">
+            <h2 class="title">Digite seu Login</h2>
+            <div class="input-field">
+              <em class="fa fa-user"></em>
+              <input type="text" placeholder="Usuário" />
+            </div>
+            <div class="input-field">
+              <em class="fa fa-lock"></em>
+              <input type="password" placeholder="Senha" />
+            </div>
+            <input type="submit" value="Entrar" class="btn solid" />
+            <p class="social-text">Desenvolvido por IFSC - Câmpus Canoinhas</p>
+          </form>
+          <!-- FIM LOGIN -->
+          <!-- INICIO CADASTRO -->
+          <form action="" class="sign-up-form">
+            <h2 class="title">Faça seu Cadastro</h2>
+            <div class="input-field">
+              <em class="fa fa-user"></em>
+              <input type="text" placeholder="Usuário" />
+            </div>
+            <div class="input-field">
+              <em class="fa fa-envelope"></em>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <em class="fa fa-lock"></em>
+              <input type="password" placeholder="Senha" />
+            </div>
+            <input type="submit" value="Registrar" class="btn solid" />
+          </form>
+          <!-- FIM CADASTRO -->
+          <!-- INICIO MENSAGEM ESQUERDA -->
+        </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Você conhece a Rede de Solidariedade?</h3>
+            <p>
+              É um projeto que auxilia todas as comunidades carentes no
+              enfrentamento de problemas sociais
+            </p>
+            <button class="btn transparent" id="sign-up-btn">Cadastrar</button>
+          </div>
+        </div>
+
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Você já faz parte da Rede de Solidariedade?</h3>
+            <p>
+              Se você tiver alguma iniciativa, precisar de ajuda ou quiser
+              ajudar, acesse a nossa rede e faça parte dessa corrente.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">Entrar</button>
+          </div>
+        </div>
+      </div>
+      <!-- FIM MENSAGEM ESQUERDA -->
+    </div>
+    <script src="/assets/telaLogin.js"></script>
+  </body>
+</html>
